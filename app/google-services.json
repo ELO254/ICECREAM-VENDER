@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "615219137526",
+    "project_id": "foodstaff-6ccce",
+    "storage_bucket": "foodstaff-6ccce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615219137526:android:dc0afacf544bb87c2315d7",
+        "android_client_info": {
+          "package_name": "com.example.foodstaff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615219137526-oqfnro33clpjngis2ip9fhuupjss4f61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtmBNwFSBTHw7m1TXzcS1v2Qlzd7VNH3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615219137526-oqfnro33clpjngis2ip9fhuupjss4f61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615219137526:android:162a57aef6539b3c2315d7",
+        "android_client_info": {
+          "package_name": "com.example.looseteeth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615219137526-oqfnro33clpjngis2ip9fhuupjss4f61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtmBNwFSBTHw7m1TXzcS1v2Qlzd7VNH3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615219137526-oqfnro33clpjngis2ip9fhuupjss4f61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

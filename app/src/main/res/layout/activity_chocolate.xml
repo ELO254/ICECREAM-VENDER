@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- First CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstCardView"
+        android:layout_width="395dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:orientation="vertical">
+
+            <!-- Quantity TextView -->
+            <TextView
+                android:id="@+id/txtquantitiy"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="quantity:"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+            <!-- Update Quantity EditText -->
+            <EditText
+                android:id="@+id/edtupdate"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="36dp"
+                android:hint="Update Quantity" />
+
+            <!-- Update Button -->
+            <Button
+                android:id="@+id/btnupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="Update" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Second CardView (Placeholder) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/secondCardView"
+        android:layout_width="380dp"
+        android:layout_height="151dp"
+        android:layout_below="@id/firstCardView"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="20dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtsold"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="quantitySold:"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <!-- Add your content for the second CardView here -->
+        <!-- This CardView is just a placeholder -->
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
