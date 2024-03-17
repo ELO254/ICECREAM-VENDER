@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         cardc = findViewById(R.id.chocolateCardView)
         cardv = findViewById(R.id.vanillaCardView)
         cards = findViewById(R.id.strawberryCardView)
+        stockb = findViewById(R.id.checkStockButton)
 
         cardc.setOnClickListener {
             var intent = Intent(this, chocolateActivity::class.java)
